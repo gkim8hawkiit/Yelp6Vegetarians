@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 cwd = os.getcwd()
 
-with open(os.path.join(cwd, 'categories.csv'), 'r') as f:
+with open(os.path.join(cwd, 'a0categories.csv'), 'r') as f:
     reader = csv.reader(f)
     restaurant_categories_list = list(reader)
     restaurant_categories_set = set(restaurant_categories_list[0])
